@@ -126,6 +126,20 @@ img {
     position: relative;
 }
 
+.showcase::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    transform:skewY(-3deg);
+    background: #fff;
+    color: yellowgreen;
+}
+
+
+
 .showcase .grid {
     overflow: visible;
     grid-template-columns: 55% 45%;
