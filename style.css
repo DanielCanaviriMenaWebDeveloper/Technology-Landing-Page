@@ -200,6 +200,8 @@ img {
 }
 
 /* Media Queries */
+
+/* Tablets and under */
 @media (max-width: 768px) {
     .grid, 
     .showcase .grid,
@@ -223,8 +225,14 @@ img {
         justify-self: center;
         margin: auto;
     }
+
+    .cli .grid > *:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
 }
-/* Tablets and under */
+
+/* Mobile */
 @media (max-width: 500px) {
     .navbar {
         height: 110px;
@@ -255,7 +263,7 @@ img {
 
 }
 
-/* Mobile */
+
 
 
 
