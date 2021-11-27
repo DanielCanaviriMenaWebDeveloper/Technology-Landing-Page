@@ -194,6 +194,12 @@ img {
     background-size: cover;
 }
 
+/* Features */
+.features-head img {
+    width: 200px;
+    justify-self: end;
+}
+
 /* Footer  */
 .footer .social a {
     margin: 0 10px;
